@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h1>CALCULATOR</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#container1">BMI</a></li>
+                    <li><a href="#container2">INTRODUCTION</a></li>
+                    <li><a href="#container3">IMAGE</a></li>
+                    <li><a href="#container4" >MOREINFORMATION</a></li>
+                    <li><a href="#container5">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <div ID="container1">
+        <div class="box1">
+            
+        <h1>BMI Calculator</h1>
+        <br>
+        <div class="gender">
+        <label for="gender"> PLEASE SELECT THE GENDER:</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        </div>
+        <br>
+        
+        <div class="height">
+          <label for="height">PLEASE SELECT YOUR HEIGHT:</label>
+          <select id="heightUnit">
+            <option value="cm">CENTEMETER</option>
+            <option value="feet">FEET</option>
+        </select>
+          <input type="number" id="height" placeholder="Enter your height">
+        </div>
+        <br>
+        <div class="weight">
+          <label for="weight">PLEASE SELECT YOUR WEIGHT:</label>
+          <select id="weightUnit">
+            <option value="kg">KILOGRAM</option>
+            <option value="pounds">POUND</option>
+        </select>
+          <input type="number" id="weight" placeholder="Enter your weight">
+        </div>
+        <br>
+        <div class="age">
+            <label for="age">PLEASE ENTER YOUR AGE:</label>
+            <br>
+          <input type="number" id="age" placeholder="Enter your age">
+        </div> 
+        <br>
+        
+        <div class="botton">
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <div id="result"></div>
+        </div>
+      </div>
+      
+      <div class="box2">
+      <p>NOTE:BMI is recommend only to be used by the adults so please enter the age above 18,if you enter the age below 18 the calculator will throw an interpretation error!</p>
+      </div>
+        </div>
+    <br>
+
+        <div id="container2">
+        <div class="info1">
+        
+            <h1>WHAT IS AN BMI CALCULATOR?</h1>
+            <P>The Body Mass Index (BMI) calculator is a useful tool for quickly assessing an individual's body weight relative to their height. It provides a numerical value that categorizes individuals into different weight categories such as underweight, normal weight, overweight, or obese. While BMI doesn't directly measure body fat, it serves as a screening tool to identify potential weight-related health risks. Monitoring your BMI regularly can help you understand your weight status and identify any changes over time, prompting you to take appropriate actions to maintain or improve your health. However, it's important to note that BMI has limitations and may not accurately reflect an individual's body composition, muscle mass, or overall health status. The formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in metres squared. A BMI of 25.0 or more is overweight, while the healthy range is 18.5 to 24.9.</P>
+        </div>
+        <div class="info2">
+            <h1 >Who shouldn't use a BMI </h1>
+            
+            <p>
+                The Body Mass Index (BMI) is a widely used tool to assess weight status in adults based on their height and weight. However, there are limitations to its applicability. Athletes and individuals with high muscle mass may have a BMI that categorizes them as overweight or obese, despite having a low body fat percentage. Pregnant or lactating women experience natural fluctuations in weight and body composition that BMI does not account for. Children and adolescents have different growth patterns, so BMI percentiles are used instead. Additionally, elderly individuals may have altered body composition that affects the accuracy of BMI calculations. Furthermore, certain medical conditions can impact weight and body composition, making BMI less reliable for assessing health risks.Alternative methods may provide a more accurate assessment.</p>
+            </div>
+            <div class="info3">
+                <h1>IMPORTANCE</h1>
+                <p>Checking your BMI (Body Mass Index) through a BMI calculator is important because it provides a quick and simple way to assess whether your weight falls within a healthy range relative to your height. While BMI doesn't directly measure body fat, it serves as a useful screening tool to identify potential weight-related health risks. A BMI calculation can alert you to whether you're underweight, normal weight, overweight, or obese, prompting further evaluation if necessary. Understanding your BMI can motivate you to make healthier lifestyle choices, such as adopting a balanced diet and engaging in regular physical activity, to maintain or achieve a healthy weight. However, it's essential to recognize the limitations of BMI, as it doesn't account for factors like muscle mass, bone density, or distribution of fat, and may not accurately reflect individual health status. Therefore, BMI should be interpreted alongside other health indicators.</p>
+            </div>
+        </div>
+        <br>
+        <div id="container3">
+        <div class="image">
+            <h1 id="IMAGE"></h1>
+            <img src="bmi.jpg" alt="BMI image">
+        </div>
+        </div>
+        <br>
+        <div id="container4">
+            <div class="info4">
+                
+            <h1>UNDERWEIGHT?</h1>
+            <p>Incorporate nutrient-dense foods into your diet, focusing on lean proteins, healthy fats, complex carbohydrates, fruits, and vegetables. Eating smaller, frequent meals throughout the day can also help increase calorie intake. Consider working with a registered dietitian who can develop a meal plan tailored to your needs and help you track your progress.
+            Regular exercise, including strength training, can help build muscle mass and improve overall health. However, it's essential to avoid excessive exercise that could further deplete your energy stores.Prioritize self-care and manage stress levels, as stress can impact appetite and weight. Getting enough sleep is also crucial for overall well-being and maintaining a healthy weight. Remember that gaining weight takes time and patience, so be kind to yourself.
+                </p>
+            </div>
+            <div class="info5">
+                <h1>OVERWEIGHT?</h1>
+                <p>Focus on making gradual and sustainable lifestyle changes rather than extreme dieting or quick fixes. This includes adopting a balanced diet rich in whole foods such as fruits, vegetables, lean proteins, and whole grains while reducing the intake of processed foods, sugary beverages, and high-fat items.Incorporate regular physical activity into your routine, aiming for a mix of cardiovascular exercises, strength training, and flexibility exercises. Finding activities you enjoy can make it easier to stick to a regular exercise regimen.Practice mindful eating by paying attention to hunger and fullness cues, avoiding distractions while eating, and savoring each bite. Additionally, consider keeping a food journal to track your eating habits and identify areas for improvement.</p>
+             </div>
+             <div class="info6">
+                <h1>OBESE?</h1>
+                <p>Focus on making sustainable lifestyle changes, including adopting a balanced and nutritious diet that emphasizes whole foods such as fruits, vegetables, lean proteins, and whole grains. It's important to gradually reduce calorie intake while avoiding crash diets or extreme restrictions, which can be harmful in the long run.Incorporate regular physical activity into your routine, aiming for a combination of cardiovascular exercise, strength training, and flexibility exercises. Start with activities that you enjoy and gradually increase intensity and duration over time.Practice mindful eating by paying attention to hunger and fullness cues, slowing down during meals, and avoiding emotional eating triggers. Consider keeping a food diary to track eating habits and identify areas for improvement.
+                </p>
+             </div>
+             <div class="info7">
+                <h1>NORMALWEIGHT?</h1>
+                <p>Regular physical activity is key to maintaining weight and overall health. Aim for at least 150 minutes of moderate-intensity aerobic exercise or 75 minutes of vigorous-intensity activity each week, along with strength training exercises at least two days per week to maintain muscle mass and bone density.Practice mindful eating by tuning into hunger and fullness cues, eating slowly, and savoring each bite. Avoid distractions while eating, such as screens or work, to stay connected to your body's signals.Maintain a balanced lifestyle by prioritizing adequate sleep, managing stress levels through relaxation techniques or hobbies, and staying hydrated by drinking plenty of water throughout the day.Regularly monitor your weight and health markers, but avoid obsessing over numbers on the scale.</p>
+             </div>
+
+        </div>
+    <footer>
+        <div id="container5">
+            <h1>CONTACT US</h1>
+            <br>
+            <a href="https://www.instagram.com/shivank_poudel?igsh=MTFpZDUxam11cDV3aw=="><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/shivank-poudel-6a8677263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://x.com/shivank_poudel?t=BicjgpoYfL4L_7CIop9nBw&s=09"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="mailto:shivank.poudel@deerwalk.edu.np"><ion-icon name="mail-outline"></ion-icon></a>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<p>©Developed by Shivank Poudel, CSIT 1st sem. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+               
+            
+
+        
+    
+        <script src="script.js"></script>
+        
+
+    
+</body>
+</html>

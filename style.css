@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   background-color:rgb(129, 176, 226);  
+   background-image: url("blob:https://web.whatsapp.com/72877c88-a086-41dc-8249-35162b25d8ba");
+   
+        
+        
+}
+#container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 15px;
+    
+}
+.right ul li a{
+  text-decoration: none;
+  color: black;
+}
+.right ul li a:hover{
+color: white;
+
+
+}
+
+
+
+.box1{
+    background-color:#5B84B1FF;
+    width: 450px;
+    height: 550px;
+    border-radius: 5px;
+    border: 5px solid black;
+  }
+input{
+  padding: 5px;
+  text-align: center;
+  margin: 3px;
+}
+    .box2{
+           background-color:#5B84B1FF;
+           width: 200px;
+           height:170px;
+           padding: 7px;
+           margin:-5px;
+           border: 5px solid black;
+           border-radius: 5px;
+           
+        
+    }
+   
+  
+    .gender{
+        text-align: center;
+    }
+    .height{
+        text-align: center;
+    
+    }
+   .weight{
+    text-align: center;
+    
+  }
+  .age{
+    text-align: center;
+  }
+
+    input[type="text"], select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    
+    
+
+    .value span,select{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+    
+.botton{
+    text-align: center;
+    margin :5px;
+    padding: 5px;
+
+}
+button {
+    margin: 1px;
+    padding: 6px;
+    
+}
+
+    
+    .box1 h1{
+        text-align: center;
+    }
+    
+   
+    #container2 {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        width: 1510px;
+        height: 450px;
+        padding: 10px;
+        margin-bottom: 3px;
+        
+
+    
+    
+        
+    }
+     
+    .info1 h1{
+        
+        text-align: center;
+        
+        
+    }
+    .info1 h1{
+        text-align: center;
+      } 
+
+        .info1 p{
+        
+            border: 5px solid black;
+            width: 500px;
+            height: 310px;
+            margin: 5px;
+            padding: 5px;
+            background-color: #5B84B1FF;
+            border-radius: 5px;
+        }
+        .info2 h1{
+            text-align: center;
+          }
+        .info2 p{
+            
+            border: 5px solid black;
+            width: 450px;
+            height: 310px;
+            margin: 5px;
+            padding: 5px;
+            background-color: #5B84B1FF;
+            border-radius: 5px;
+        }
+        .info3 h1{
+            text-align: center;
+          }
+
+          .info3 p{
+            border: 5px solid black;
+            width: 500px;
+            height: 310px;
+            margin: 5px;
+            padding: 5px;
+            background-color: #5B84B1FF;
+            border-radius: 5px;
+          }
+        nav{
+            background-color: #5B84B1FF;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            
+         }
+        .right ul{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            
+          }
+          .right ul li {
+              list-style: none;
+              margin: 5px;
+              
+              align-items: center ;
+              cursor: pointer;
+          
+          }
+          #container3{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+          }
+          .image img{
+            border: 5px solid black;
+            border-radius: 5px;
+            
+          }
+          #container4{
+            display: flex;
+            justify-content: center;
+            
+            
+        
+            width: 1480px;
+            height: 650px;
+            gap: 20px;
+            padding: 7px;
+            margin: 7px;
+          }
+          .info4 h1{
+            text-align: center;
+          }
+          
+          .info4  p{
+            border: 5px solid black;
+            width: 300px;
+            height: 430px;
+            margin: 5px;
+            padding: 5px;
+            background-color: #5B84B1FF;
+            border-radius: 5px;
+          }
+          .info5 h1{
+            text-align: center;
+          }
+
+          .info5 p{
+            border: 5px solid black;
+            width: 300px;
+            height: 430px;
+            margin: 5px;
+            padding: 5px;
+            background-color: #5B84B1FF;
+            border-radius: 5px;
+          }
+          .info6 h1{
+            text-align: center;
+          }
+
+          .info6 p{
+            border: 5px solid black;
+            width: 300px;
+            height: 430px;
+            margin: 5px;
+            padding: 5px;
+            background-color: #5B84B1FF;
+            border-radius: 5px;
+          }
+          .info7 h1{
+            text-align: center;
+          }
+
+          .info7 p{
+            border: 5px solid black;
+            width: 300px;
+            height: 430px;
+            margin: 5px;
+            padding: 5px;
+            background-color: #5B84B1FF;
+            border-radius: 5px;
+          }
+
+          
+          #container5{
+            text-align: center;
+          }
+          #container5 h1{
+            text-align: center;
+          }
+          #container5 a{
+            font-size: 2rem;
+            color: black;
+            padding: 5px;
+            
+          }
+          
